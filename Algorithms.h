@@ -19,7 +19,7 @@ uint8_t array_is_sorted(uint32_t *arr,uint8_t size);
 void num_swap(uint32_t *n1, uint32_t *n2);
 
 //prints the provided array
-void print_array(uint32_t *arr,int size);
+void print_array(uint32_t *arr,uint32_t size);
 
 
 #endif // ALGORITHMS_H_

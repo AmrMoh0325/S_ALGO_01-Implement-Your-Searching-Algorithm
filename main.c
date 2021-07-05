@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Algorithms.h"
+#include "TestCases.h"
 
 
 
@@ -18,7 +19,7 @@ int main()
     uint8_t arr_size=(uint8_t)input;
     uint32_t arr[arr_size];
     printf("\nEnter array members in any order: ");
-    for (int i=0;i<arr_size;i++)
+    for (uint32_t i=0;i<arr_size;i++)
     {
        scanf("%d", arr+i);
     }

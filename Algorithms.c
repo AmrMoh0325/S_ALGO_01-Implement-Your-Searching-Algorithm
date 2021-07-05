@@ -33,7 +33,7 @@ sint16_t binarySearch(uint32_t *arr,uint8_t size,uint32_t num)
 
 void selection_sort(uint32_t *arr,uint8_t size)
 {
-    int i,j,min_index=0;
+    uint32_t i,j,min_index=0;
 
     for (i=0;i<size-1;i++)
     {
@@ -51,7 +51,7 @@ void selection_sort(uint32_t *arr,uint8_t size)
 
 uint8_t array_is_sorted(uint32_t *arr,uint8_t size)
 {
-    for (int i=0;i<size-1;i++)
+    for (uint32_t i=0;i<size-1;i++)
     {
         if (arr[i]>arr[i+1])    return 0;
     }
@@ -66,9 +66,9 @@ void num_swap(uint32_t *n1, uint32_t *n2)
 }
 
 
-void print_array(uint32_t *arr,int size)
+void print_array(uint32_t *arr,uint32_t size)
 {
-    int i;
+    uint32_t i;
     for (i=0;i<size-1;i++)
     {
         printf("%d, ",arr[i]);
