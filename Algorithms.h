@@ -6,19 +6,44 @@
 #include <stdlib.h>
 #include "Data_Types.h"
 
-//sorts array if not sorted, and performs binary search algorithm(returns index or -1 if number not found)
+/************************************************************************************
+* Parameters (in): uint32_t *array ,uint8_t array_size ,uint32_t number
+* Parameters (out): sint16_t
+* Return value: index of number or -1 if not found
+* Description: searches for the number in the  array
+************************************************************************************/
 sint16_t binarySearch(uint32_t *arr,uint8_t size,uint32_t num);
 
-//sorts the provided array incrementally using selection sorting algorithm
+/************************************************************************************
+* Parameters (in): uint32_t *array ,uint8_t array_size
+* Parameters (out): void
+* Return value: void
+* Description: sorts the  array using selection sorting algorithm
+************************************************************************************/
 void selection_sort(uint32_t *arr,uint8_t size);
 
-//checks if an array is sorted or not
+/************************************************************************************
+* Parameters (in): uint32_t *array ,uint8_t array_size
+* Parameters (out): uint8_t
+* Return value: 1 if the array is sorted or 0 if not sorted
+* Description: checks if an array is sorted or not
+************************************************************************************/
 uint8_t array_is_sorted(uint32_t *arr,uint8_t size);
 
-//swaps two numbers
+/************************************************************************************
+* Parameters (in): uint32_t * number1, uint32_t *number2
+* Parameters (out): void
+* Return value: void
+* Description: swaps the given numbers
+************************************************************************************/
 void num_swap(uint32_t *n1, uint32_t *n2);
 
-//prints the provided array
+/************************************************************************************
+* Parameters (in): uint32_t *array ,uint8_t array_size
+* Parameters (out): void
+* Return value: void
+* Description: prints an array
+************************************************************************************/
 void print_array(uint32_t *arr,uint32_t size);
 
 

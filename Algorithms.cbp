@@ -31,6 +31,15 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Algorithms.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Algorithms.h" />
+		<Unit filename="Data_Types.h" />
+		<Unit filename="TestCases.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TestCases.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
