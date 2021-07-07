@@ -1,3 +1,12 @@
+/*****************************************************************************
+* Task: Algorithms
+* File Name: Algorithms.c
+* Description: library file for algorithms functions
+* Author: Amr Mohamed
+* Date: 5/7/2021
+******************************************************************************/
+
+
 #include "Algorithms.h"
 
 /*====================== TASK ===================================*/

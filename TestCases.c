@@ -1,3 +1,11 @@
+/*****************************************************************************
+* Task: Algorithms
+* File Name: TestCases.c
+* Description: File for testing
+* Author: Amr Mohamed
+* Date: 5/7/2021
+******************************************************************************/
+
 #include "TestCases.h"
 
 void test_sorted_check(void)

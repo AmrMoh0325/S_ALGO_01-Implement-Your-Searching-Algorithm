@@ -1,3 +1,12 @@
+/*****************************************************************************
+* Task: Algorithms
+* File Name: main.c
+* Description: main file
+* Author: Amr Mohamed
+* Date: 5/7/2021
+******************************************************************************/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "Algorithms.h"

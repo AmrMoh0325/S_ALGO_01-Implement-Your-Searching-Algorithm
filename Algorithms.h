@@ -1,3 +1,10 @@
+/*****************************************************************************
+* Task: Algorithms
+* File Name: Algorithms.h
+* Description: header file for the Algorithms.c
+* Author: Amr Mohamed
+* Date: 5/7/2021
+******************************************************************************/
 
 #ifndef ALGORITHMS_H_
 #define ALGORITHMS_H_

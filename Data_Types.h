@@ -1,4 +1,10 @@
-
+/*****************************************************************************
+* Task: Algorithms
+* File Name: Data_Types.h
+* Description: header file for the data types
+* Author: Amr Mohamed
+* Date: 5/7/2021
+******************************************************************************/
 
 #ifndef DATA_TYPES_H_
 #define DATA_TYPES_H_
